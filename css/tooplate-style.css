@@ -836,7 +836,9 @@ video {
 	background-color: #f7f5ec;
   }
   
- .section4.newsroom .thumbnail {
+
+
+  .section4.newsroom .thumbnail {
 	margin-bottom: 30px;
 	font-size: 1rem;
 }
@@ -908,8 +910,6 @@ video {
 		font-size: .7rem;
 	}
 }
-
-
 
 
 
