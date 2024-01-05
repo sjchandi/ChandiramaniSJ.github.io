@@ -131,11 +131,82 @@ https://www.tooplate.com/view/2095-level
                         </article>
 
                         
-                    </div>        
+                    </div>     
+                     <div class="section4 newsroom">
+                        <div class="container">
+                            <h2 class="text-center display-3 my-5 tm-color-primary tm-font-semibold" >Latest Announcement</h2>
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-3">
+                                    <div class="thumbnail" onclick="location.href='#'">
+                                      <div class="overlay">
+                                        <div class="overlay-inner">
+                                            <a href="#"><h4 class="news-title">2024 New Year Celebration!</h4></a>
+                                            <a href="#"><h4 class="title-hover">2024 New Year Celebration! December 29, 2023 5:00pm</h4></a>  
+                                        </div>
+                                      </div>
+                                        <img alt="" class="img-responsive cover" src="/img/news1.jpg" />
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-6 col-sm-6 col-md-3">
+                                    <div class="thumbnail" onclick="location.href='#'">
+                                      <div class="overlay">
+                                        <div class="overlay-inner">
+                                          <a href="#"><h4 class="news-title">Libreng Bunot!</h4></a>
+                                          <a href="#"><h4 class="title-hover"> Magpunta sa ating Barangay Hall sa schedule na nakasaad:
+                                        </h4></a>  
+                                        </div>
+                                      </div>
+                                        <img alt="" class="img-responsive cover" src="/img/news2.jpg" />
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-6 col-sm-6 col-md-3">
+                                    <div class="thumbnail" onclick="location.href='#'">
+                                      <div class="overlay">
+                                        <div class="overlay-inner">
+                                          <a href="#"><h4 class="news-title">Sinalhan Won!</h4></a>
+                                          <a href="#"><h4 class="title-hover">Sinalhan won in the Adopt-a-Lot Program</h4></a>  
+                                        </div>
+                                      </div>
+                                        <img alt="" class="img-responsive cover" src="/img/news3.jpg" />
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-6 col-sm-6 col-md-3">
+                                    <div class="thumbnail" onclick="location.href='#'">
+                                      <div class="overlay">
+                                        <div class="overlay-inner">
+                                          <a href="#"><h4 class="news-title">Barangay Sinalhan!</h4></a>
+                                          <a href="#"><h4 class="title-hover">News</h4></a>  
+                                        </div>
+                                      </div>
+                                        <img alt="" class="img-responsive cover" src="/img/news4.jpg" />
+                                    </div>
+                                </div>			  
+                            </div>
+                            <!--close row-->
+                            <p class="text-center"><a href="#" class="btn btn-danger rounded-0 text-white">View All</a></p>
+                        </div>
+                    </div>
                   
 
                     
-                </div>
+               </div>
+
+                <script>
+                    $('.news-title').text(cut(50)).append("...");
+                    
+                    function cut(n) {
+                      return function textCutter(i, text) {
+                        var short = text.substr(0, n);
+                        if (/^\S/.test(text.substr(n)))
+                            return short.replace(/\s+\S*$/, "");
+                        return short;
+                      };
+                    }
+                    
+                                      </script>
 
                 
             </div>
